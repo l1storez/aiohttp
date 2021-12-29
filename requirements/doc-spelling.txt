@@ -16,12 +16,12 @@ certifi==2020.12.5
     # via requests
 chardet==4.0.0
     # via requests
-click-default-group==1.2.2
-    # via towncrier
 click==7.1.2
     # via
     #   click-default-group
     #   towncrier
+click-default-group==1.2.2
+    # via towncrier
 docutils==0.16
     # via sphinx
 funcparserlib==0.3.6
@@ -56,7 +56,7 @@ requests==2.25.1
     # via sphinx
 snowballstemmer==2.1.0
     # via sphinx
-sphinx==3.5.3
+sphinx==3.5.4
     # via
     #   -r requirements/doc.txt
     #   sphinxcontrib-asyncio
@@ -78,7 +78,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.4
     # via sphinx
-sphinxcontrib-spelling==7.1.0 ; platform_system != "Windows"
+sphinxcontrib-spelling==7.3.1 ; platform_system != "Windows"
     # via -r requirements/doc-spelling.in
 toml==0.10.2
     # via towncrier
