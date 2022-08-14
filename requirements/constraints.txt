@@ -24,7 +24,7 @@ brotli==1.0.9
     # via
     #   -r requirements/base.txt
     #   -r requirements/test.txt
-cchardet==2.1.7
+cchardet==2.1.7 ; python_version < "3.10"
     # via -r requirements/base.txt
 certifi==2021.10.8
     # via requests
@@ -131,7 +131,7 @@ pluggy==1.0.0
     # via pytest
 pre-commit==2.17.0
     # via -r requirements/lint.txt
-proxy-py==2.4.0rc6
+proxy-py==2.4.4rc3
     # via -r requirements/test.txt
 py==1.11.0
     # via pytest
@@ -217,13 +217,13 @@ toml==0.10.2
     # via
     #   cherry-picker
     #   pre-commit
-    #   pytest
     #   towncrier
 tomli==1.2.2
     # via
     #   coverage
     #   mypy
     #   pep517
+    #   pytest
     #   slotscheck
 towncrier==21.3.0
     # via
